@@ -1,1 +1,10 @@
-{}
+{
+  "description": "Track and analyze personal expenses with intuitive charts, auto-categorization, and seamless CSV uploads for clear financial insights on any device.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
