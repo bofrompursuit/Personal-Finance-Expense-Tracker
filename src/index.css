@@ -1,7 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
 @import 'tailwindcss';
 
 html,
 body,
 #root {
   height: 100%;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: #27272a;
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
